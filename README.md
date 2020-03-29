@@ -84,7 +84,7 @@ If a movie with the given identifier already exists, the existing movie will be 
 
 `PUT /movies/<identifier>`
 
-You can update a single or multiple values
+You can update a single or multiple fields
 
 **Responses**
 
@@ -93,7 +93,6 @@ You can update a single or multiple values
 
 ```json
     {
-        "identifier": "godfather",
         "name": "The Godfather",
         "movie_type": "Crime",
         "movie_year": 1972
